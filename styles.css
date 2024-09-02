@@ -1,0 +1,351 @@
+/* 
+#sunnyside{
+    padding-left: 80px;
+    display: flex;
+    background-image: url('images/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 700px;
+    padding-top: 10px;
+}
+
+.About{
+    display: flex;
+    list-style: none;
+gap: 20px;
+}
+
+.About-box{
+font-size: 13px;
+}
+
+
+.About-button{
+    position: relative;
+    left: 300px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border-color: transparent;
+    font-weight: bolder;
+    bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.About-button:hover{
+    background-color: orange;
+    color: white;
+} */
+
+/* .creative{
+   
+} */
+
+/* .creative h2{
+    
+    color: black;
+ justify-content: center;
+ align-content: center;
+}
+
+.creative img{
+   
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+    height: 700px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+#contact-btn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.header-content{
+    margin-top: 150px;
+}
+
+.header-content h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.down-arrow{
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.First-section{
+    display: flex;
+}
+
+.First-section-style{
+background-color: rgb(247, 246, 242);
+width: 700px;
+justify-content: center;
+align-content: center;
+padding-left: 120px;
+}
+
+.First-section-style h2{
+    font-size: 40px;
+}
+
+.First-section-style h5{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.First-section-style h4{
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.second-section{
+    display: flex;
+}
+
+.second-section-style{
+background-color: rgb(247, 246, 242);
+width: 700px;
+justify-content: center;
+align-content: center;
+padding-left: 120px;
+}
+
+.second-section-style h2{
+    font-size: 40px;
+}
+
+.second-section-style h5{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.second-section-style h4{
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.third-section{
+display: flex;
+flex-direction: row;
+}
+
+.graphic-design{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 550px;
+    
+    align-content: end;
+    padding-left: 250px;
+}
+
+.graphic-design h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(58, 87, 58);
+}
+
+.graphic-design h5{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 25px;
+font-weight: 600;
+color: rgb(58, 87, 58);
+
+}
+
+    
+    .photography{
+        background-image: url(images/desktop/image-photography.jpg);
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 550px;
+        padding-left: 250px;
+        align-content: end;
+    }
+    
+    .photography h2{
+        font-size: 30px;
+        font-weight: 900;
+        color: rgb(58, 87, 58);
+    }
+    
+    .photography h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(58, 87, 58);
+    
+    }
+
+    .last-section{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    
+    .last-section h2{
+        padding-left: 400px;
+        margin-bottom: 80px;
+        opacity: 0.5;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+
+    }
+
+    .last-section-style{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .last-section-style img{
+        border-radius: 50px;
+    }
+
+    .trust{
+     justify-content: center;
+     font-weight: 700;
+line-height: 30px;
+font-size: 17px;
+opacity: 0.5;
+    }
+
+    .justify{
+     justify-content: center;
+     align-content: center;
+    
+    }
+
+    .emily{
+        font-weight: 900;
+    }
+
+    .marketing{
+        opacity: 0.5;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    footer{
+        background-color: rgb(113, 185, 161);
+        padding-top: 50px;
+    }
+
+    .sunnyside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 600px;
+    position: relative;
+    top: 30px;
+    }
+
+    .list{
+        list-style: none;
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        align-content: center;
+        line-height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        opacity: 0.5;
+    }
+
+    .lists{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
+        line-height: 100px;
+    }
+
+    .loader{
+        width: 100px;
+        height: 100px;
+        border: 5px solid black;
+        border-top-color: red;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
